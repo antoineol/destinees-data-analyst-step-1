@@ -1,0 +1,1 @@
+SELECT * FROM trainings where trainings.price = 7000

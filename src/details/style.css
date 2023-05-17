@@ -1,0 +1,137 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+  font-size: 1.5rem;
+  color: #13b1ab;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.seats-tag {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  font-size: 16px;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.seats-tag img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  margin-top: 1px;
+  margin-right: 4px;
+}
+
+main {
+  max-width: 450px;
+  margin: auto;
+  padding: 2rem 1rem 3rem;
+  border: solid 1px darkgray;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0.8rem 0;
+  width: 150px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  color: white;
+  background-color: #13b1ab;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #11a29d;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+button:active {
+  background-color: #12aba6;
+}
+
+.card {
+  box-shadow: 0 0 15px -3px rgb(0 0 0 / 0.1), 0 0 6px -4px rgb(0 0 0 / 0.1);
+  margin: 1rem 0;
+  padding: 1.5rem 1rem 1.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card > div {
+  flex: 1;
+}
+
+.card-figures {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.card-figure {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.card-figure img {
+  width: 0.9rem;
+  height: 0.9rem;
+}
+
+.logo {
+  width: 120px;
+  max-width: 30%;
+  height: 60px;
+  padding: 0.5rem;
+  border: solid 1px lightgray;
+  border-radius: 0.5rem;
+}
+
+img {
+  object-fit: contain;
+}
+
+.db-table-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.db-table-wrapper table {
+  border-collapse: collapse;
+}
+.db-table-wrapper tr {
+  border-bottom: 1px solid #ccc;
+}
+.db-table-wrapper th,
+.db-table-wrapper td {
+  text-align: left;
+  padding: 4px 8px;
+}
